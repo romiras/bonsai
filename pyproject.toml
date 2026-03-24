@@ -1,0 +1,16 @@
+[project]
+name = "bonsai"
+version = "0.1.0"
+description = "High-fidelity code pruning for LLMs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "tree-sitter>=0.22.0",
+    "tiktoken>=0.7.0",
+    "tree-sitter-python>=0.25.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.15.6"
+]
